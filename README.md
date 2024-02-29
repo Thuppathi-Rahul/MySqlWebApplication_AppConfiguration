@@ -1,5 +1,5 @@
 
-# MySqlWebApplication
+# MySqlWebApplication with App configuration 
 	Clone the application and follow the instruction of implmnetion
 # Prerequisite
   	1- Azure Data Studio 
@@ -43,6 +43,9 @@
 
 
 # Implementation of App configuration 
+
+Azure App Configuration is a cloud service offered by Microsoft that allows you to centrally manage application settings and feature flags for your applications running in Azure or anywhere else. It serves as a single source of truth for all your application configurations, simplifying management and deployment across different environments and geographies.
+
 
 Create a  Azure App Configuration services and add connection string their.
 
