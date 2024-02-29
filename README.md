@@ -1,4 +1,5 @@
-![image](https://github.com/ratreprakash/MySqlWebApplication_AppConfiguration/assets/157607672/b1bbfc7f-07f7-4c9b-9c02-32793a7f1e0f)# MySqlWebApplication
+
+# MySqlWebApplication
 	Clone the application and follow the instruction of implmnetion
 # Prerequisite
   	1- Azure Data Studio 
@@ -37,7 +38,9 @@
 ![image](https://github.com/ratreprakash/MySqlWebApplication/assets/157607672/c9d51cce-a0f8-4c20-8790-bbf82ed6994b)
 
 # Azure App Configuration
-![image](https://github.com/ratreprakash/MySqlWebApplication_AppConfiguration/assets/157607672/c0d06009-f4fd-4bd1-92cb-352764470e34)
+
+![image](https://github.com/ratreprakash/MySqlWebApplication_AppConfiguration/assets/157607672/0b3a7f22-7684-45a1-ba4e-1f16e683db6f)
+
 
 # Implementation of App configuration 
 
