@@ -3,17 +3,11 @@ using MySqlWebApplication.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//var connectionstring = "Endpoint=https://appconfig8900.azconfig.io;Id=9NiR;Secret=/S4arzLmh9z1JJOdUWW6byaj1XpImtkh4Xc6yqeXk+8=";
-
-//builder.Host.ConfigureAppConfiguration(builder => {
-
-   // builder.AddAzureAppConfiguration(connectionstring);
-//});
+// REMOVE the Azure App Configuration part
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IProductService, ProductService>();
-
 
 var app = builder.Build();
 
@@ -21,7 +15,6 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -29,7 +22,6 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(
